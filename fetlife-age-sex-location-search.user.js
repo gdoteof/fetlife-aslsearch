@@ -121,7 +121,7 @@ FL_ASL.aslSubmit = function (e) {
 FL_ASL.getSearchParams = function () {
     var r = {
         'age'   : {'min': null, 'max': null},
-        'sex'   : [],
+        'sex'   : ['F'],
         'role'  : [],
         'loc'   : {},
         'filter': ''
