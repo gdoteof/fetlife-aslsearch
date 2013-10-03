@@ -35,7 +35,7 @@
 
 FL_ASL = {};
 FL_ASL.CONFIG = {
-    'debug': false, // switch to true to debug.
+    'debug': true, // switch to true to debug.
     'progress_id': 'fetlife_asl_search_progress',
     'min_matches': 1 // show at least this many matches before offering to search again
 };
