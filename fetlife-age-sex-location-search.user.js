@@ -45,6 +45,7 @@ FL_ASL.total_result_count = 0; // How many matches have we found, across all pag
 // Utility debugging function.
 FL_ASL.log = function (msg) {
     if (!FL_ASL.CONFIG.debug) { return; }
+    console.log("FETLIFE",msg)
     GM_log('FETLIFE ASL SEARCH: ' + msg);
 };
 
